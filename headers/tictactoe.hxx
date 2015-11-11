@@ -32,7 +32,7 @@ public:
     bool turn();
 
     bool display_board_status();
-    bool validate_board_size_input(int user_specified_size);
+    bool check_if_tied();
 
 
 
