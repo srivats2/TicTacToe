@@ -47,3 +47,9 @@ either expressed or implied, of the FreeBSD Project
  | |____| (_) || | | | | || |_) || || ||  __/ | |\  || (_) || |_|  __/\__ \ _ 
   \_____|\___/ |_| |_| |_|| .__/ |_||_| \___| |_| \_| \___/  \__|\___||___/(_)
                           | |                                                 
+1: CMake V3.0 or above is required to build the code.
+2: Simply create an empty directory and run cmake as always
+3: Building tests requires checking the option "BUILD_TESTS" in the CMake GUI while setting up
+4: CMake can build any target project or solution file. 
+5: Standard unix make will also work
+6: Check (http://check.sourceforge.net/) is a required library for building the unit tests.
