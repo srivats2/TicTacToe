@@ -1,6 +1,7 @@
 #include "tictactoe.hxx"
 #include <iostream>
 #include <math.h>
+#include <istream>
 #include <limits>
 bool tictactoe::display_board_status(){
 
