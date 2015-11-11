@@ -88,5 +88,18 @@ int main(){
 
 
         tictactoe_session->display_board_status();
+
+
+          do{
+            tictactoe_session->turn();
+
+
+            //display the status
+            tictactoe_session->display_board_status();
+
+            //continue till someone wins or if its a tie
+
+            }while(1);
+
     return 0;
 }
